@@ -3,13 +3,12 @@
 
 const colorInput = document.getElementById("color-input")
 const getColorBtn = document.getElementById("get-color-btn")
-const dropdownBtn = document.getElementById("dropdown-btn")
 const dropdownMenu = document.getElementById("dropdown")
 const colorDisplay = document.getElementById("color-display")
 const hexDisplay = document.getElementById("hex-display")
 
 let colorSchemeArray = []
-let hexColor = "#000000"
+let hexColor = colorInput.value
 let mode = "monochrome"
 
 document.addEventListener("click", e => {
