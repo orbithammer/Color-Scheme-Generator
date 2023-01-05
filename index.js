@@ -9,7 +9,7 @@ const hexDisplay = document.getElementById("hex-display")
 
 let colorSchemeArray = []
 let hexColor = colorInput.value
-let mode = "monochrome"
+let mode = "analogic"
 
 document.addEventListener("click", e => {
     if(e.target.dataset.btn) {
