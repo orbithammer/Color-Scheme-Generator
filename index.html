@@ -11,17 +11,22 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <body>
         <header>
-            <input type="color" class="color-input" id="color-input" aria-label="color-input" value="#ff0000">
-            <select aria-label="color-scheme-options" class="dropdown" id="dropdown">
-                <option value="monochrome">Monochrome</option>
-                <option value="monochrome-dark" id="monochrome-dark">Monochrome-dark</option>
-                <option value="monochrome-light">Monochrome-light</option>
-                <option value="analogic" selected="selected">Analogic</option>
-                <option value="complement">Complement</option>
-                <option value="analogic-complement">Analogic-complement</option>
-                <option value="triad">Triad</option>
-                <option value="quad">Quad</option>
-            </select>
+            <div class="input-wrapper">
+                <div class="color-wrapper">
+                    <input type="color" class="color-input" id="color-input" aria-label="color-input" value="#ff0000">
+                    <select aria-label="color-scheme-options" class="dropdown" id="dropdown">
+                        <option value="monochrome">Monochrome</option>
+                        <option value="monochrome-dark" id="monochrome-dark">Monochrome-dark</option>
+                        <option value="monochrome-light">Monochrome-light</option>
+                        <option value="analogic" selected="selected">Analogic</option>
+                        <option value="complement">Complement</option>
+                        <option value="analogic-complement">Analogic-complement</option>
+                        <option value="triad">Triad</option>
+                        <option value="quad">Quad</option>
+                    </select>
+                </div>
+                <input type="text" class="hex-input" id="hex-input" placeholder="Enter a hex code" value="#">
+            </div>
             <button type="button" class="get-color-btn" id="get-color-btn">
                 Get color scheme
             </button>
