@@ -7,7 +7,7 @@
 
 body {
   display: flex;
-  width: 25rem;
+  width: 20rem;
   margin-bottom: 2.875rem;
 }
 
@@ -16,7 +16,7 @@ header {
     align-items: center;
     position: fixed;
     background-color: #fff;
-    width: 25rem;
+    width: 20rem;
     height: 5.625rem;
 }
 
@@ -94,7 +94,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   position: fixed;
-  width: 25rem;
+  width: 20rem;
   height: 2.875rem;
   left: auto;
   top: 31.5rem;
