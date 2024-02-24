@@ -7,7 +7,7 @@
 
 body {
   display: flex;
-  width: 34.375rem;
+  width: 25rem;
   margin-bottom: 2.875rem;
 }
 
@@ -16,13 +16,15 @@ header {
     align-items: center;
     position: fixed;
     background-color: #fff;
-    width: 34.375rem;
+    width: 25rem;
     height: 5.625rem;
 }
 
 .input-wrapper {
   display: flex;
   flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: left; */
 }
 .color-wrapper {
   display: flex;
@@ -37,7 +39,7 @@ header {
 
 .dropdown,
 .hex-input {
-  width: 19.5rem;
+  width: 10rem;
   height: 2rem;
   border: 1px solid #D1D5DB;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
@@ -46,9 +48,11 @@ header {
 }
 
 .hex-input {
-  margin-left: 5.5rem;
+  /* margin-left: 5.5rem; */
   padding-left: 0.25rem;
-  width: 19.25rem;
+  width: 9.75rem;
+  margin: 0 auto 0 0;
+  align-self: flex-start;
 }
 
 .get-color-btn {
@@ -81,7 +85,7 @@ option:checked {
 }
 
 .color-display div {
-  width: 6.875rem;
+  width: 5rem;
   height: 34.375rem;
 }
 
@@ -90,7 +94,7 @@ footer {
   align-items: center;
   justify-content: space-around;
   position: fixed;
-  width: 34.375rem;
+  width: 25rem;
   height: 2.875rem;
   left: auto;
   top: 31.5rem;
@@ -108,4 +112,6 @@ footer button {
   line-height: 24px;
   color: #2B283A;
   cursor: pointer;
+  writing-mode: vertical-rl;
+  /* transform: rotate(-180deg); */
 }
